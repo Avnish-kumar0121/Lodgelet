@@ -1,0 +1,139 @@
+body{
+    background-color: #F8F9FA !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: #ffffff;
+}
+
+.fa-compass{
+    color: #fe424f;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+
+/* footer */
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links, .f-info-socials, .f-info-brand{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.f-info-socials i {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+
+.f-info {
+    text-align: center;
+    background-color: #ebebeb;
+    height: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* Cards */
+
+.listing-card{
+    border: none !important ;
+    margin-bottom:2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 400 !important;
+}
+
+.listings-link{
+    text-decoration: none;
+}
+
+
+/* card-text  */
+/* .card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.2;
+    background-color: #ffffff;
+    
+} */
+
+
+.card-img-overlay {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.5; /* visibility */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000; /* Black text for contrast */
+}
+
+
+/* new list */
+.add-btn{
+    background-color: #fe424f !important;
+    border: none !important;
+}
+
+
+/* show pages */
+
+.show-img{
+    height: 50vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
